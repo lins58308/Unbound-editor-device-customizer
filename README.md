@@ -1,3 +1,17 @@
+# Windows 繁體中文社群版 / Windows community edition
+
+**[下載 Community 7.2 Windows 可攜版](https://github.com/lins58308/Unbound-editor-device-customizer/releases/tag/community-v7.2)**
+
+這是 lins58308 維護的非官方社群預覽版，提供固定滑鼠操作、自動程式配置、浮動鍵盤指南與繁體中文說明。下載 ZIP 後解壓縮並執行 EXE，不需要 Python。
+
+The prebuilt Windows community preview is available under Releases. The 7.2 implementation references and validation notes are in [community/windows-7.2](community/windows-7.2). These extensions are not yet integrated into the current upstream Python entry point; the inherited upstream workflow builds upstream code only.
+
+原作者：[PuzzleEmptyM/Unbound-editor-device-customizer](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer)。[上游回饋 #4](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/issues/4)。正式整合需要原作者審核。
+
+---
+
+## Original upstream README
+
 # Unbound — Editor Device Customizer
 
 A desktop app for remapping the buttons on a compatible editor controller to anything you want, without needing any host software open.

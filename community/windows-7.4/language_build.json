@@ -1,0 +1,23 @@
+{
+  "version": "7.4",
+  "baseline_sha256": "12e605d8f568489e033fb25f8ba1d627d0deec8431aecb75fc37c2609e830991",
+  "source_sha256": "28bc30c3571d222f8873e3954bbfe67de63404f04631840f9af326918c32d92e",
+  "portable_sha256": "933dd971567782bf16aa99244310f628df2548738e3d39a3f4f00d250e6f40e4",
+  "portable_bytes": 47020489,
+  "original_payloads_unchanged": true,
+  "catalog_counts": {
+    "zh-CN": 1316,
+    "en": 1342,
+    "ja": 1319,
+    "ko": 1319,
+    "es": 1319,
+    "fr": 1319,
+    "de": 1319,
+    "pt": 1319,
+    "it": 1319,
+    "ru": 1319,
+    "id": 1319
+  },
+  "public_strings": 1316,
+  "development": false
+}

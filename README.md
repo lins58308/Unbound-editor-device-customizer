@@ -1,12 +1,18 @@
-# Windows 繁體中文社群版 / Windows community edition
+# Windows 社群版 7.4 / Windows community edition
 
-**[下載 Community 7.2 Windows 可攜版](https://github.com/lins58308/Unbound-editor-device-customizer/releases/tag/community-v7.2)**
+**[⬇ 直接下載 Windows EXE（不需安裝 Python）](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.4/SpeedEditorCustomizer-v7.4-Windows.exe)**
 
-這是 lins58308 維護的非官方社群預覽版，提供固定滑鼠操作、自動程式配置、浮動鍵盤指南與繁體中文說明。下載 ZIP 後解壓縮並執行 EXE，不需要 Python。
+[下載可攜 ZIP](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.4/SpeedEditorCustomizer-v7.4-Windows-Portable.zip) · [新版內容與所有下載檔](https://github.com/lins58308/Unbound-editor-device-customizer/releases/tag/community-v7.4)
 
-The prebuilt Windows community preview is available under Releases. The 7.2 implementation references and validation notes are in [community/windows-7.2](community/windows-7.2). These extensions are not yet integrated into the current upstream Python entry point; the inherited upstream workflow builds upstream code only.
+支援 **12 種離線介面語言**：繁體中文（預設）、簡體中文、英文、日文、韓文、西班牙文、法文、德文、葡萄牙文、義大利文、俄文、印尼文。到「語言 / Language」選擇語言，再按「立即套用 / Apply now」，主視窗、浮動鍵盤、使用說明與系統匣選單會立即更新。原有配置與快捷鍵保持不變。
 
-原作者：[PuzzleEmptyM/Unbound-editor-device-customizer](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer)。[上游回饋 #4](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/issues/4)。正式整合需要原作者審核。
+此版保留固定滑鼠操作、自動應用程式配置、毛玻璃浮動鍵盤、可調顏色與滑鼠穿透。關閉或最小化視窗可在右下角系統匣繼續執行；右鍵圖示選「結束程式」才會完整退出。請把 EXE 放在可寫入資料夾；首次啟動會自動建立設定。更新時保留自己的 `config.json`。
+
+**Standalone EXE available above.** No Python installation is needed to run the Windows community build. It includes twelve offline interface languages, automatic application profiles, consistent mouse controls, a floating physical keyboard guide and background/tray mode. The ZIP and EXE contain no personal configuration or account data. Core control terms are reviewed; some extended descriptions use machine-assisted translation.
+
+Source modules, catalogs, exact-binary rebuild instructions and validation are in [community/windows-7.4](community/windows-7.4). Earlier extensions remain in [community/windows-7.2](community/windows-7.2). These additions are not yet integrated into the inherited upstream Python entry point; the inherited workflow builds upstream code only.
+
+這是 lins58308 維護的非官方社群版本。原作者：[PuzzleEmptyM/Unbound-editor-device-customizer](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer)。[上游回饋 #4](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/issues/4) · [待審核的整合 PR #5](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/pull/5)。正式整合由原作者審核。
 
 ---
 

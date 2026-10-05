@@ -1,0 +1,116 @@
+{
+  "version": "7.5",
+  "platform": "Windows",
+  "build": {
+    "version": "7.5",
+    "baseline_sha256": "933dd971567782bf16aa99244310f628df2548738e3d39a3f4f00d250e6f40e4",
+    "baseline_bytes": 47020489,
+    "portable_sha256": "c8873fdaf0bb52657789e0b828169072f6b9a77d69f9359e0baa3b09e179088c",
+    "portable_bytes": 33690600,
+    "reduction_bytes": 13329889,
+    "reduction_percent": 28.35,
+    "source_sha256": "65573d0eb315d5030d51c816c1bd529632843a473e9bdb4c1d18c9f48c5b4231",
+    "removed_optional_payloads": [
+      {
+        "name": "PyQt6\\Qt6\\bin\\opengl32sw.dll",
+        "compressed": 7680585,
+        "original": 20639888
+      },
+      {
+        "name": "PyQt6\\Qt6\\bin\\Qt6Pdf.dll",
+        "compressed": 2467258,
+        "original": 4610360
+      },
+      {
+        "name": "PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll",
+        "compressed": 21715,
+        "original": 42296
+      },
+      {
+        "name": "Pythonwin\\mfc140u.dll",
+        "compressed": 2694900,
+        "original": 5664848
+      },
+      {
+        "name": "Pythonwin\\win32ui.pyd",
+        "compressed": 339484,
+        "original": 1051648
+      }
+    ],
+    "hid_retry_loop_changed": [
+      "hid_thread"
+    ],
+    "retained_payloads_unchanged_except_hid_loop": true,
+    "icon_sha256": "27e77735adf1cc7317998a02e7e079e194ac6d708728fded8363788e019d57bb",
+    "icon_sizes": [
+      16,
+      20,
+      24,
+      32,
+      40,
+      48,
+      64,
+      128,
+      256
+    ]
+  },
+  "folder": {
+    "version": "7.5",
+    "standalone_source_sha256": "c8873fdaf0bb52657789e0b828169072f6b9a77d69f9359e0baa3b09e179088c",
+    "exe_sha256": "3048f000a4c1f7c233068885daaab8a5143513b8144bed1bb7b0725a1b28bccd",
+    "exe_bytes": 6547939,
+    "runtime_bytes": 73231040,
+    "repeated_extraction": false
+  },
+  "previous_runtime_checks": 107,
+  "background_checks": 42,
+  "language_checks": 161,
+  "native_language_checks": 161,
+  "native_icon_hid_checks": 14,
+  "performance": {
+    "baseline": {
+      "request_seconds": 1.3440000000118744,
+      "quit_seconds": 1.312000000005355,
+      "heartbeat_max_gap": 0,
+      "heartbeat_count_after_request": 0,
+      "all_workers_stopped": false,
+      "temporary_extraction": true,
+      "exit_code": 0
+    },
+    "single_exe": {
+      "request_seconds": 0.031000000017229468,
+      "quit_seconds": 0.8120000000053551,
+      "heartbeat_max_gap": 0.062000000005355105,
+      "heartbeat_count_after_request": 25,
+      "all_workers_stopped": true,
+      "temporary_extraction": true,
+      "exit_code": 0
+    },
+    "folder": {
+      "request_seconds": 0.062000000005355105,
+      "quit_seconds": 0.875,
+      "heartbeat_max_gap": 0.10899999999674037,
+      "heartbeat_count_after_request": 26,
+      "all_workers_stopped": true,
+      "temporary_extraction": false,
+      "exit_code": 0
+    }
+  },
+  "timing_fixture": "deliberately delayed foreground worker; timings vary with system load",
+  "manual_desktop": [
+    "native application icons",
+    "98 installed applications discovered",
+    "OBS 41 presets retained",
+    "floating keyboard hide",
+    "close to tray",
+    "restore from production tray menu",
+    "quit from production tray menu"
+  ],
+  "manual_quit_seconds": 0.062000000005355105,
+  "manual_exit_code": 0,
+  "manual_workers_remaining": 0,
+  "public_source_reproduces_exact_exe": true,
+  "contains_personal_configuration": false,
+  "hardware_and_every_external_app_manually_tested": false,
+  "macos_tested": false
+}

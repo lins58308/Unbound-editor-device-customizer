@@ -1,18 +1,20 @@
-# Windows 社群版 7.4 / Windows community edition
+# Windows 社群版 7.5 / Windows community edition
 
-**[⬇ 直接下載 Windows EXE（不需安裝 Python）](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.4/SpeedEditorCustomizer-v7.4-Windows.exe)**
+**[⬇ 直接下載精簡版 EXE · 33.7 MB](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.5/SpeedEditorCustomizer-v7.5-Windows.exe)**
 
-[下載可攜 ZIP](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.4/SpeedEditorCustomizer-v7.4-Windows-Portable.zip) · [新版內容與所有下載檔](https://github.com/lins58308/Unbound-editor-device-customizer/releases/tag/community-v7.4)
+**[⬇ 建議使用：可攜資料夾 ZIP（啟閉免重複解壓）](https://github.com/lins58308/Unbound-editor-device-customizer/releases/download/community-v7.5/SpeedEditorCustomizer-v7.5-Windows-Portable.zip)** · [新版內容與全部下載](https://github.com/lins58308/Unbound-editor-device-customizer/releases/tag/community-v7.5)
 
-支援 **12 種離線介面語言**：繁體中文（預設）、簡體中文、英文、日文、韓文、西班牙文、法文、德文、葡萄牙文、義大利文、俄文、印尼文。到「語言 / Language」選擇語言，再按「立即套用 / Apply now」，主視窗、浮動鍵盤、使用說明與系統匣選單會立即更新。原有配置與快捷鍵保持不變。
+7.5 修正 Windows 應用程式圖示的透明度、黑底及尺寸處理，主視窗、浮動鍵盤、EXE 與系統匣使用一致的新圖示。完整退出改為先通知背景工作與裝置停止，再完成清理；介面不再同步等待背景執行緒。
 
-此版保留固定滑鼠操作、自動應用程式配置、毛玻璃浮動鍵盤、可調顏色與滑鼠穿透。關閉或最小化視窗可在右下角系統匣繼續執行；右鍵圖示選「結束程式」才會完整退出。請把 EXE 放在可寫入資料夾；首次啟動會自動建立設定。更新時保留自己的 `config.json`。
+單檔 EXE 從 **47.02 MB 縮小至 33.69 MB（減少 28.35%）**。資料夾版 EXE 為 6.55 MB，搭配 73.23 MB 執行元件，**請保留旁邊的 `_internal` 資料夾**；兩個版本功能相同，都不用安裝 Python。更新時保留自己的 `config.json`，資料夾版需一併更新整個 `_internal`。
 
-**Standalone EXE available above.** No Python installation is needed to run the Windows community build. It includes twelve offline interface languages, automatic application profiles, consistent mouse controls, a floating physical keyboard guide and background/tray mode. The ZIP and EXE contain no personal configuration or account data. Core control terms are reviewed; some extended descriptions use machine-assisted translation.
+保留 12 種離線語言、固定滑鼠操作、自動應用程式配置、毛玻璃浮動鍵盤、可調顏色、滑鼠穿透及背景系統匣。到「語言 / Language」切換語言；主視窗、浮動鍵盤、使用說明與系統匣選單立即更新。關閉視窗可在系統匣繼續運作；右鍵選「結束程式」才完整退出。
 
-Source modules, catalogs, exact-binary rebuild instructions and validation are in [community/windows-7.4](community/windows-7.4). Earlier extensions remain in [community/windows-7.2](community/windows-7.2). These additions are not yet integrated into the inherited upstream Python entry point; the inherited workflow builds upstream code only.
+**English:** Both downloads preserve all 7.4 features. The standalone EXE is 28.35% smaller; the recommended folder edition avoids repeated temporary extraction. Keep `_internal` beside its EXE. Icons and cooperative full exit are fixed. Downloads contain no private configuration or account data.
 
-這是 lins58308 維護的非官方社群版本。原作者：[PuzzleEmptyM/Unbound-editor-device-customizer](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer)。[上游回饋 #4](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/issues/4) · [待審核的整合 PR #5](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/pull/5)。正式整合由原作者審核。
+原始碼、精確重建步驟與驗證紀錄：[community/windows-7.5](community/windows-7.5)。原有操作、背景及語言檢查全部通過，並完成 Windows 原生圖示、裝置停止及實際系統匣還原／退出驗證。早期擴充在 [windows-7.4](community/windows-7.4) 和 [windows-7.2](community/windows-7.2)；繼承的上游建構流程仍只建構上游入口。
+
+這是 lins58308 維護的非官方社群版本。原作者：[PuzzleEmptyM](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer)。[上游回饋 #4](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/issues/4) · [待審核整合 PR #5](https://github.com/PuzzleEmptyM/Unbound-editor-device-customizer/pull/5)。正式整合由原作者審核。
 
 ---
 
@@ -153,3 +155,4 @@ The device requires a challenge-response handshake before it sends input events.
 
 HID authentication algorithm by [Sylvain Munaut](https://github.com/smunaut) (Apache 2.0).
 Claude Code used for styling, debugging, and documentation.
+
